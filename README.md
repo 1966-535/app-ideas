@@ -113,6 +113,7 @@ required to complete them.
 | [Slack Archiver](./Projects/Slack-Archiver.md)                 | Archive Slack Messages                                              | 3-Advanced |
 | [Spell-It App](./Projects/SpellIt-App.md)                      | A twist on the classic Speak N Spell game                           | 3-Advanced |
 | [Survey App](./Projects/Survey-App.md)                         | Define, conduct, and view a survey                                  | 3-Advanced |
+| [🌟Team Clarity App](./Projects/Team-Clarity-App.md)             | Define and evaluate team decisions                            | 3-Advanced |
 
 ## Plans for the future
 
