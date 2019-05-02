@@ -22,7 +22,15 @@ Once voting is complete metrics are provide to highlight a clear winner among
 the proposed solutions or to focus additional team discussion around the
 leaders.
 
-### Constraints
+### Requirements & Constraints
+
+Sample page layouts are provided below. However, use these as a guide rather
+than as a constraint. Decide what you want the UI/UX to look like.
+
+- [Page Layout & Navigation](./assets/Team-Clarity-Page-Layout-and-Navigation.png)
+- [Login Page](./assets/Team-Clarity-Login-Page.png)
+- [Define Issue Page](./assets/Team-Clarity-Define-Issue-Page.png)
+- [Evaluate Issue Page](./assets/Team-Clarity-Evaluate-Issue-Page.png)
 
 Users have different responsibilities which means the app must provide 
 functionality only to the users of a given role. This means the app must
@@ -68,17 +76,23 @@ input fields.
 -   [ ] User can see an error message if either the user name or password fields
 are empty or if the combination of the two is invalid.
 -   [ ] User can see the users role name (`team lead` or `team member`)
-displayed in the 
+displayed in the navigation bar
 
 ### Define Issue Page
 -   [ ] Users with the `team lead` role can see the Define Issue page
-containing the issue description input text field and 'Cancel' and 'Add' 
-buttons.
+containing the issue description input text field and 'Cancel', 'Add', and  
+'Delete' buttons.
+-   [ ] User can see the current issue when the page is displayed or an empty
+description text box if an issue hasn't yet been defined.
 -   [ ] User can enter a short description of the issue a solution is to be 
 decided on.
 -   [ ] User can click the 'Add' button to add the issue.
 -   [ ] User can see and error message if the description text box is empty.
 -   [ ] User will see a confirmation message following an 'Add' operation.
+-   [ ] User can click the 'Delete' button to delete the current issue along
+with any evaluations associated with it.
+-   [ ] User can see a message confirming the status of a 'Delete' request.
+-   [ ] User can click the 'Cancel' button to clear the issue description.
 
 ### Evaluate Issue Page
 *_TBD_* Process based on team members defining solutions, assigning pros and cons and ranking them
